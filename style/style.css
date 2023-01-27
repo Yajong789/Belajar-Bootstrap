@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter&family=Lobster&family=Oswald&family=Poppins:ital,wght@0,700;1,200;1,400&family=Quicksand&family=Rubik&display=swap');
+:root{
+    --icon-color: #0dcaf0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+img:hover{
+    box-shadow: 1px 0px 26px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 0px 26px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 0px 26px -6px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+
+.btn-info{
+    background-color: var(--icon-color);
+    border-color: var(--icon-color);
+}
+
+.btn-info:hover{
+    background-color: transparent;
+    border-color: var(--icon-color);
+}
+
+.text-icon{
+    color: var(--icon-color) !important;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-item .nav-link.active,
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: var(--icon-color);
+}
+
+header .header-tittle{
+    font-size: 72px;
+}
+
+.card {
+    transition: .3s;
+    margin-bottom: 20px;
+}
+
+.card i{
+    color: var(--icon-color);
+    font-size: 72px;
+}
+.card:hover{
+    background-color: var(--icon-color);
+}
+
+.card .text-info{
+    text-decoration: none;
+}
+
+.card:hover i, .card:hover h3, .card:hover .text-secondary, .card:hover .text-info {
+    color: #ffff !important;
+}
+
+@media screen and (max-width: 768px) {
+    header .header-tittle{
+        font-size: 42px;
+    }
+}
+
+
+
+
