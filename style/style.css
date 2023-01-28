@@ -28,6 +28,7 @@ img:hover{
 .btn-info:hover{
     background-color: transparent;
     border-color: var(--icon-color);
+    transition: .5s
 }
 
 .text-icon{
